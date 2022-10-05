@@ -1,0 +1,72 @@
+body {
+    margin: 0px; background-color: rgb(234, 229, 217);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+.top-container {
+    background-color:rgb(234, 229, 217); 
+    text-align: center; position: absolute; top: 100px; left: 35%;
+    margin: 0 auto 0 auto;
+    width: 30%;
+}
+
+h1{ font-size: 50px; line-height: 1;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #7895B2;
+}
+
+h2 {font-weight: normal;
+    font-size: 1.5rem; 
+    color: #7895B2;
+}
+
+.profile {width: 50%; margin: 100px auto;  line-height: 2;}
+.skill-row {width: 50%; margin:200px auto; line-height: 2; text-align: left;}
+.biologist {width: 20%; float: left; margin-right: 30px;}
+.analyst {width: 20%; float: left; margin-right: 30px;}
+.webdeveloper {width: 20%; float: left; margin-right: 30px;}
+.dottedline {border: dotted; width: 5%; margin:auto;border-top: none; border-color: grey;border-width: 7px;}
+.btn {
+        background: #335e8a;
+        background-image: -webkit-linear-gradient(top, #335e8a, #7895B2);
+        background-image: -moz-linear-gradient(top, #335e8a, #7895B2);
+        background-image: -ms-linear-gradient(top, #335e8a, #7895B2);
+        background-image: -o-linear-gradient(top, #335e8a, #7895B2);
+        background-image: linear-gradient(to bottom, #335e8a, #7895B2);
+        -webkit-border-radius: 12;
+        -moz-border-radius: 12;
+        border-radius: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+
+.bottom-container {
+margin: 50px auto 0px auto;
+padding: 50px;
+background-color: #AEBDCA;
+block-size: 50px;
+}
+
+a{
+    color: #385979;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
